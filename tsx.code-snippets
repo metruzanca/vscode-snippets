@@ -1,0 +1,16 @@
+{
+	"Functional Component": {
+		"prefix": "rfc",
+		"body": [
+			"type Props = {}",
+			"",
+			"export const ${1:$TM_FILENAME_BASE}: React.FC<Props> = ({}) => {",
+			"",
+			"  return (",
+			"    <div>${1:$TM_FILENAME_BASE}</div>",
+			"  )",
+			"}"
+		],
+		"description": "Functional Component"
+	}
+}

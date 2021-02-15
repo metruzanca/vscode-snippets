@@ -2,6 +2,8 @@
 	"Functional Component": {
 		"prefix": "rfc",
 		"body": [
+			"import React from \"react\"",
+			"",
 			"type Props = {}",
 			"",
 			"export const ${1:$TM_FILENAME_BASE}: React.FC<Props> = ({}) => {",
